@@ -1,10 +1,10 @@
 :root{
-    --bgColor:#f4f7ff;
-    --btnTxtColor:#f4f7ff;
-    --btnBgPreColor:#2a2541;
+    --bgColor:#131414;
+    --btnTxtColor:#15fdfd;
+    --btnBgPreColor:#6f35bb;
     --btnSubmitColor:#5c86ff;
     --successColor:#5cffa1;
-    --loadindColor:#5c86ff;
+    --loadindColor:#e1ff5c;
 }
 
 @keyframes loading{
@@ -40,9 +40,9 @@ canvas{
         border: none;
         color: var(--btnTxtColor);
         cursor: pointer;
-        font-family: "Quicksand", sans-serif;
-        font-size: 14px;
-        font-weight: 500;
+        font-family: "Monserrat", sans-serif;
+        font-size: 16px;
+        font-weight: 550;
         height: 40px;
         left: 50%;
         outline: none;
