@@ -1,7 +1,7 @@
 :root{
     --bgColor:#f4f7ff;
     --btnTxtColor:#f4f7ff;
-    --btnBgPreColor:#1f2335;
+    --btnBgPreColor:#2a2541;
     --btnSubmitColor:#5c86ff;
     --successColor:#5cffa1;
     --loadindColor:#5c86ff;
@@ -21,7 +21,7 @@
 
 
 body{
-    -webkit-font-smoothing: antiliased;
+    -webkit-font-smoothing: antialiased;
     background-color: var(--bgColor);
 
 }
@@ -87,7 +87,7 @@ canvas{
         opacity: 1;
       }
       button.loading .loadingCircle {
-        animation-duration: 1s;
+        animation-duration: 2s;
         animation-iteration-count: infinite;
         animation-name: loading;
         cy: 10;
